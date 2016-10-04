@@ -23,6 +23,7 @@ def countchar(str_a):
             list_count[i] = str_a.count(j)
     return list_count
 
-print(countchar(input().lower()))
+if __name__ == "__main__":
+    print(countchar(input().lower()))
 
 

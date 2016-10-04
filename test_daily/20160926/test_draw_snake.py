@@ -25,7 +25,7 @@ def draw_snake(rad, angle, s_len, neckrad):
     turtle.fd(rad*2/3)
 
 
-def main():
+def main1():
     turtle.setup(1360,800,0,0)
     pythonsize = 10
     turtle.pensize(pythonsize)
@@ -33,4 +33,5 @@ def main():
     turtle.seth(-40)
     draw_snake(40,80, 5,pythonsize/2)
 
-main()
+if __name__ == "__main__":
+    main1()

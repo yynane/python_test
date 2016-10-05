@@ -35,7 +35,7 @@ for address in address_dict:
         print('没有你所输入的省份。')
 
 '''
-这串代码有问题。
+这串代码有问题，尚未完成。
 '''
 
 

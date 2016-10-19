@@ -12,5 +12,4 @@ import pandas
 
 score = pandas.read_excel('score.xls')
 score['sum'] = score['Python']+score['Math']
-score.to_excel('score_sun.xlsx', sheet_name='scores')
-
+score.to_excel('score_sum.xlsx', sheet_name='scores')

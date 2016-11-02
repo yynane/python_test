@@ -20,7 +20,7 @@ class YoukuAnalyzer(VideoAnalyzer):
     pass
 
 
-def to_db():
+def insert_db(v, uuid):
     pass
 
 

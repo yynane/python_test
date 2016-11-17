@@ -1,6 +1,7 @@
 .idea/
 .vscode/
 test_daily/201611/acl/
+test_daily/201611/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
